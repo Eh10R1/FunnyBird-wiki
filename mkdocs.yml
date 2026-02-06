@@ -1,0 +1,11 @@
+site_name: FunnyBird Wiki
+
+theme:
+  name: material
+  language: ja
+
+nav:
+  - ホーム: index.md
+  - チュートリアル: tutorial.md
+  - スキン: skins.md
+  - 攻略: tips.md
