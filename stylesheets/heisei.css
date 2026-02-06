@@ -4,6 +4,20 @@ body {
   font-family: "MS PGothic", "ＭＳ Ｐゴシック", sans-serif;
 }
 
+#fixed-logo {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 9999;
+}
+
+#fixed-logo img {
+  width: 120px;      /* 好きに調整 */
+  border: 2px solid #0000ff;
+  background: #ffffff;
+}
+
+
 .md-header {
   background: linear-gradient(#00ffff, #0099cc);
   border-bottom: 3px solid #0000ff;
