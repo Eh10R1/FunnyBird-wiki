@@ -1,0 +1,44 @@
+body {
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+  background-color: #ccffff;
+  font-family: "MS PGothic", "ＭＳ Ｐゴシック", sans-serif;
+}
+
+.md-header {
+  background: linear-gradient(#00ffff, #0099cc);
+  border-bottom: 3px solid #0000ff;
+}
+
+.md-content {
+  background: #ffffff;
+  border: 4px double #0000ff;
+  padding: 16px;
+}
+
+/* 点滅文字 */
+.blink {
+  animation: blink 1s steps(1) infinite;
+  color: red;
+  font-weight: bold;
+}
+
+@keyframes blink {
+  50% { visibility: hidden; }
+}
+
+/* カウンター枠 */
+.counter-box {
+  margin-top: 20px;
+  padding: 10px;
+  border: 3px ridge #ff00ff;
+  background: #ffffcc;
+  text-align: center;
+}
+
+/* お知らせ枠 */
+.notice {
+  border: 2px dashed #ff0000;
+  padding: 10px;
+  background: #fff0f0;
+  margin: 15px 0;
+}
