@@ -5,10 +5,17 @@ body {
 }
 
 #fixed-logo {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  z-index: 10;
+  position: fixed !important;
+  top: 10px;
+  left: 10px;
+  z-index: 100000 !important;
+  pointer-events: auto;
+}
+
+#fixed-logo img {
+  width: 120px;
+  border: 2px solid red; /* テスト用 */
+  background: yellow;    /* テスト用 */
 }
 
 #fixed-logo img {
